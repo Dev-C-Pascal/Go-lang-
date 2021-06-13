@@ -1,0 +1,18 @@
+package main
+
+import (
+	"fmt"
+	"os"
+) 
+
+func main() {
+ 
+ var b int
+ fmt.Fscan(os.Stdin, &b)
+ var a int
+ fmt.Fscan(os.Stdin, &a)
+
+for i := 0; i < a; i++ {
+    fmt.Println(b)
+}
+}
