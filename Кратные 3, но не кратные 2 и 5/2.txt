@@ -1,0 +1,55 @@
+package main
+
+import (
+	"fmt"
+	"os"
+)
+
+func main() {
+    
+    var x1 int
+    fmt.Fscan(os.Stdin, &x1)
+
+    var x2 int
+    fmt.Fscan(os.Stdin, &x2)
+    
+    var y1 int
+    fmt.Fscan(os.Stdin, &y1)
+    
+    var y2 int
+    fmt.Fscan(os.Stdin, &y2)
+    
+    var bulba int
+    fmt.Fscan(os.Stdin, &bulba)
+    
+    if x1%3 == 0 && x1%2 !=0 && x1%5 !=0 { 
+        fmt.Println("YES")
+    } else {
+        fmt.Println("NO")
+    }
+    
+    if x2%3 == 0 && x2%2 !=0 && x2%5 !=0 { 
+        fmt.Println("YES")
+    } else {
+        fmt.Println("NO")
+    }
+
+    if y1%3 == 0 && y1%2 !=0 && y1%5 !=0 { 
+        fmt.Println("YES")
+    } else {
+        fmt.Println("NO")
+    }
+    
+    if y2%3 == 0 && y2%2 !=0 && y2%5 !=0 { 
+        fmt.Println("YES")
+    } else {
+        fmt.Println("NO")
+    }
+
+    if bulba%3 == 0 && bulba%2 !=0 && bulba%5 !=0 { 
+        fmt.Println("YES")
+    } else {
+        fmt.Println("NO")
+    }
+
+}
